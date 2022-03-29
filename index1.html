@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+    <div class="btns">
+        <div class="container">
+            <div class="btns__menu">
+                <button class="btn home">home</button>
+                <button class="btn about">About</button>
+                <button class="btn skills">Skills</button>
+                <button class="btn works">Works</button>
+                <button class="btn contact">Contact</button>
+            </div>
+        </div>
+    </div>
+<section id="home">
+    <dir class="wrapper">
+
+    <h1>home</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium repellendus earum aspernatur, beatae corporis adipisci, voluptatu
+        m nulla tenetur totam, nobis iste expedita impedit itaque ullam quaerat animi laudantium quibusdam!</h2>
+<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae aspernatur incidunt exercitationem magnam, ipsa, quaerat voluptatem
+     magni deleniti nobis perspiciatis omnis quia accusamus ad maxime. Sed esse facilis velit!</h3>
+    </dir>
+</section>
+
+<section id="about">
+    <dir class="wrapper">
+    <h1>about</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium repellendus earum aspernatur, beatae corporis adipisci, voluptatu
+        m nulla tenetur totam, nobis iste expedita impedit itaque ullam quaerat animi laudantium quibusdam!</h2>
+<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae aspernatur incidunt exercitationem magnam, ipsa, quaerat voluptatem
+     magni deleniti nobis perspiciatis omnis quia accusamus ad maxime. Sed esse facilis velit!</h3>
+    </dir>
+</section>
+
+<section id="skills">
+    <dir class="wrapper">
+    <h1>skills</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium repellendus earum aspernatur, beatae corporis adipisci, voluptatu
+        m nulla tenetur totam, nobis iste expedita impedit itaque ullam quaerat animi laudantium quibusdam!</h2>
+<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae aspernatur incidunt exercitationem magnam, ipsa, quaerat voluptatem
+     magni deleniti nobis perspiciatis omnis quia accusamus ad maxime. Sed esse facilis velit!</h3>
+    </dir>
+</section>
+
+<section id="works">
+    <dir class="wrapper">
+    <h1>works</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium repellendus earum aspernatur, beatae corporis adipisci, voluptatu
+        m nulla tenetur totam, nobis iste expedita impedit itaque ullam quaerat animi laudantium quibusdam!</h2>
+<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae aspernatur incidunt exercitationem magnam, ipsa, quaerat voluptatem
+     magni deleniti nobis perspiciatis omnis quia accusamus ad maxime. Sed esse facilis velit!</h3>
+    </dir>
+</section>
+
+    <section id="contact">
+        <dir class="wrapper">
+        <h1>contact</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium repellendus earum aspernatur, beatae corporis adipisci, voluptatu
+            m nulla tenetur totam, nobis iste expedita impedit itaque ullam quaerat animi laudantium quibusdam!</h2>
+    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae aspernatur incidunt exercitationem magnam, ipsa, quaerat voluptatem
+         magni deleniti nobis perspiciatis omnis quia accusamus ad maxime. Sed esse facilis velit!</h3>
+        </dir>
+
+
+</section>
+
+<script>
+    const btnHome = document.querySelector('.home');
+    const sectionHome = document.querySelector('#home')
+    btnHome.addEventListener('click', function(){
+        sectionHome.scrollIntoView({behavior:"smooth", block:"center"});
+    })
+    const btnAbout = document.querySelector('.about');
+    const sectionAbout = document.querySelector('#about')
+    btnAbout.addEventListener('click', function(){
+        sectionAbout.scrollIntoView({behavior:"smooth", block:"center"});
+    })
+    const btnSkills = document.querySelector('.skills');
+    const sectionSkills = document.querySelector('#skills')
+    btnSkills.addEventListener('click', function(){
+        sectionSkills.scrollIntoView({behavior:"smooth", block:"center"});
+    })
+    const btnWorks = document.querySelector('.works');
+    const sectionWorks = document.querySelector('#works')
+    btnWorks.addEventListener('click', function(){
+        sectionWorks.scrollIntoView({behavior:"smooth", block:"center"});
+    })
+    const btnContact = document.querySelector('.contact');
+    const sectionContact = document.querySelector('#contact')
+    btnContact.addEventListener('click', function(){
+        sectionContact.scrollIntoView({behavior:"smooth", block:"center"});
+    })
+</script>
+
+
+
+</body>
+</html>
